@@ -1,0 +1,15 @@
+---
+- name: Converge
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - role: ansible-role-bareos_console
+      bareos_console_directors:
+        - name: bareos-dir
+          address: localhost
+          password: "MySuperSecretPassword"
+          description: "Bareos Console credentials for local Director"
+          tls_enable: yes
+          tls_verify_peer: no

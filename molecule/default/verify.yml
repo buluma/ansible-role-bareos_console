@@ -1,0 +1,16 @@
+---
+- name: Verify
+  hosts: all
+  become: yes
+  gather_facts: no
+
+  tasks:
+    - name: Run bconsole --version
+      ansible.builtin.command:
+        cmd: bconsole --version
+      changed_when: no
+
+    - name: List directors
+      ansible.builtin.command:
+        cmd: bconsole --list-directors
+      changed_when: no

@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install and configure [Bareos](https://www.bareos.com/) Console (bconsole) on your system.
+  homepage: https://buluma.github.io/
+  topics: backup, bareos, infrastructure, linux, storage, system, tools, ansible, molecule, tox, playbook
