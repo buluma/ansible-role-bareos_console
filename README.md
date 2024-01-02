@@ -1,10 +1,10 @@
-# [Ansible role bareos_console](#bareos_console)
+# Ansible role [bareos_console](https://galaxy.ansible.com/ui/standalone/roles/buluma/bareos_console/documentation)
 
 Install and configure [Bareos](https://www.bareos.com/) Console (bconsole) on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-bareos_console/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_console/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_console.svg)](https://github.com/buluma/ansible-role-bareos_console/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-bareos_console.svg)](https://github.com/buluma/ansible-role-bareos_console/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-bareos_console.svg)](https://github.com/buluma/ansible-role-bareos_console/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-bareos_console/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bareos_console/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bareos_console.svg)](https://github.com/buluma/ansible-role-bareos_console/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-bareos_console.svg)](https://github.com/buluma/ansible-role-bareos_console/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-bareos_console.svg)](https://github.com/buluma/ansible-role-bareos_console/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/bareos_console)](https://galaxy.ansible.com/ui/standalone/roles/buluma/bareos_console/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -102,13 +102,9 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-bareos_console/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-bareos_console/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
-
-Template inspired by [Robert de Bock](https://github.com/robertdebock)
