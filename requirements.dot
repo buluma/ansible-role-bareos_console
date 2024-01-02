@@ -1,0 +1,11 @@
+digraph PhiloDilemma {
+  label = "Michael Buluma" ;
+  overlap=false
+  {
+    "bareos_console" [fillcolor=yellow style=filled penwidth=3]
+    "buluma.bootstrap" [fillcolor=green style=filled]
+    "buluma.bareos_repository" [fillcolor=green style=filled]
+  }
+  "bareos_console" -> "buluma.bootstrap"
+  "bareos_console" -> "buluma.bareos_repository"
+}
