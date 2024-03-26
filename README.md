@@ -14,8 +14,8 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 ---
 - name: Converge
   hosts: all
-  become: yes
-  gather_facts: yes
+  become: true
+  gather_facts: true
 
   roles:
     - role: buluma.bareos_console
@@ -24,8 +24,8 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
           address: localhost
           password: "MySuperSecretPassword"
           description: "Bareos Console credentials for local Director"
-          tls_enable: yes
-          tls_verify_peer: no
+          tls_enable: true
+          tls_verify_peer: false
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-bareos_console/blob/master/molecule/default/prepare.yml):
@@ -34,8 +34,8 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 ---
 - name: Prepare
   hosts: all
-  become: yes
-  gather_facts: no
+  become: true
+  gather_facts: false
 
   roles:
     - role: buluma.bootstrap
@@ -107,4 +107,3 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [Shadow Walker](https://buluma.github.io/)
-
