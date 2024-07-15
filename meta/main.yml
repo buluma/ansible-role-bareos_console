@@ -19,14 +19,12 @@ galaxy_info:
       versions:
         - "38"
         - "39"
-        - "40"
     - name: opensuse
       versions:
         - all
     - name: Ubuntu
       versions:
         - jammy
-        - noble
 
   galaxy_tags:
     - backup
