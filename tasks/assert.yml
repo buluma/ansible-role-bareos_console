@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test bareos_console_directors
   ansible.builtin.assert:
     that:
