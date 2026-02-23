@@ -1,16 +1,15 @@
----
-- name: Verify
-  hosts: all
-  become: true
-  gather_facts: false
+  - name: Verify
+    hosts: all
+    become: true
+    gather_facts: false
 
-  tasks:
-    - name: Run bconsole --version
-      ansible.builtin.command:
-        cmd: bconsole --version
-      changed_when: false
+    tasks:
+      - name: Run bconsole --version
+        ansible.builtin.command:
+          cmd: bconsole --version
+        changed_when: false
 
-    - name: List directors
-      ansible.builtin.command:
-        cmd: bconsole --list-directors
-      changed_when: false
+      - name: List directors
+        ansible.builtin.command:
+          cmd: bconsole --list-directors
+        changed_when: false
