@@ -5,11 +5,11 @@
   gather_facts: true
 
   roles:
-  - role: buluma.bareos_console
-    bareos_console_directors:
-    - name: bareos-dir
-      address: localhost
-      password: "MySuperSecretPassword"
-      description: "Bareos Console credentials for local Director"
-      tls_enable: true
-      tls_verify_peer: false
+    - role: buluma.bareos_console
+      bareos_console_directors:
+        - name: bareos-dir
+          address: localhost
+          password: "MySuperSecretPassword"
+          description: "Bareos Console credentials for local Director"
+          tls_enable: true
+          tls_verify_peer: false

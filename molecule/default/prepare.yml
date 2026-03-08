@@ -5,5 +5,5 @@
   gather_facts: false
 
   roles:
-  - role: buluma.bootstrap
-  - role: buluma.bareos_repository
+    - role: buluma.bootstrap
+    - role: buluma.bareos_repository

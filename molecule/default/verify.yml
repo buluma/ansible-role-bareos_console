@@ -5,12 +5,12 @@
   gather_facts: false
 
   tasks:
-  - name: Run bconsole --version
-    ansible.builtin.command:
-      cmd: bconsole --version
-    changed_when: false
+    - name: Run bconsole --version
+      ansible.builtin.command:
+        cmd: bconsole --version
+      changed_when: false
 
-  - name: List directors
-    ansible.builtin.command:
-      cmd: bconsole --list-directors
-    changed_when: false
+    - name: List directors
+      ansible.builtin.command:
+        cmd: bconsole --list-directors
+      changed_when: false
