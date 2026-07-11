@@ -5,6 +5,7 @@
   gather_facts: true
 
   roles:
+    - role: buluma.bareos_repository
     - role: buluma.bareos_console
       bareos_console_directors:
         - name: bareos-dir
